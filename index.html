@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bussiness website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#slider">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price">Price Plans</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <section>
+        <div id="slider">
+            <div id="headerslider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#headerslider" data-slide-to="0" class="active"></li>
+                  <li data-target="headerslider" data-slide-to="1"></li>
+                  <li data-target="#headerslider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="banner.jpg" class="d-block img-fluid" alt="banner">
+                    <div class="carousel-caption">
+                        <h5>How to start bussiness</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="banner2.jpg" class="d-block img-fluid" alt="banner2">
+                    <div class="carousel-caption">
+                        <h5>How to Manage</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="banner3.jpg" class="d-block img-fluid" alt="banner3">
+                    <div class="carousel-caption">
+                        <h5>How to start Work</h5>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </section>
+    <section id="about">   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        “I owe my success to having listened respectfully to the very best advice, 
+                        and then going away and doing the exact opposite.” 
+                    </div>
+                    <button type="button" class="btn btn-primary">Read more >></button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <P>Adobe Photoshop</P>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                    <P>UI Design</P>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                    <P>WordPress</P>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                    <P>Graphics Design</P>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="row service">
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>"We don't want to push our ideas on to customers, 
+                        we simply want to make what they want."</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-tablet"></i>
+                    </div>
+                    <h3>Planing</h3>
+                    <p>“A goal without a plan is just a wish.”"</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                    <h3>Investment</h3>
+                    <p>"An investment in knowledge pays the best interest." </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-paint-brush"></i>
+                    </div>
+                    <h3>Goal</h3>
+                    <p>"If you don’t know where you are going, you will probably end up somewhere else."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="row">
+                <div class="col-md-3 profit-pic text-center">
+                    <div class="img-box">
+                        <img src="team.jpg" class="img-responsive" alt="team1">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                    <h2>Pikachu</h2>
+                    <h3>founder / CEO</h3>
+                    <p>"My Problem Is That I Push People Away And 
+                        I Hate Them For Leaving."</p>
+                </div>
+                <div class="col-md-3 profit-pic text-center">
+                    <div class="img-box">
+                        <img src="team2.jpg" class="img-responsive" alt="team1">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                    <h2>Shinchan</h2>
+                    <h3>Manager</h3>
+                    <p>When I don't get sleep I just start reading books
+                        And study time is what you have already described</p>
+                </div>
+                <div class="col-md-3 profit-pic text-center">
+                    <div class="img-box">
+                        <img src="team3.jpg" class="img-responsive" alt="team1">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                    <h2>Tom and Jerry</h2>
+                    <h3>Marking Dpartment</h3>
+                    <p>“Let us always meet each other with smile, 
+                        for the smile is the beginning of love.”</p>
+                </div>
+                <div class="col-md-3 profit-pic text-center">
+                    <div class="img-box">
+                        <img src="team4.jpg" class="img-responsive" alt="team1">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        </ul>
+                    </div>
+                    <h2>Kitretsu</h2>
+                    <h3>Invension Dpartment</h3>
+                    <p>An investment in knowledge pays the best interest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="promo">
+        <div class="container">
+            <p>Get free Domain Name and Web Hosting</p>
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+    <section id="price">
+        <div class="container">
+            <h1>Price Plans</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Free</h2>
+                            <p>$0/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>5GB space</li>
+                                <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                                <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                                <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Startup Plan</h2>
+                            <p>$5/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>10GB space</li>
+                                <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                                <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                                <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Business Plan</h2>
+                            <p>$10/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>20GB space</li>
+                                <li><i class="fa fa-check-circle"></i>200GB Bandwidth</li>
+                                <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+                                <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Advance Plan</h2>
+                            <p>$50/<span>month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>50GB space</li>
+                                <li><i class="fa fa-check-circle"></i>Unlimited Bandwidth</li>
+                                <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+                                <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                                <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <h1>testimonials</h1>
+            <p class="text-center">subscribe to this page for more details</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="user.jpg" class="user">
+                        <blockquote>I'm selfish, impatient and a little insecure. 
+                            I make mistakes, I am out of control and at times hard to handle. 
+                            But if you can't handle me at my worst, 
+                            then you sure as hell don't deserve me at my best.</blockquote>
+                            <h3>Oswald <span>co-Founder of this company</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="user2.jpg" class="user">
+                        <blockquote>Don’t walk in front of me… I may not follow
+                            Don’t walk behind me… I may not lead
+                            Walk beside me… just be my friend</blockquote>
+                            <h3>Bunny <span>co-manager of this company</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="profile">
+                        <img src="user3.jpg" class="user">
+                        <blockquote>You've gotta dance like there's nobody watching,
+                            Love like you'll never be hurt,
+                            Sing like there's nobody listening,
+                            And live like it's heaven on earth.</blockquote>
+                            <h3>Mickey Mouse <span>co-financer of this company</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Phone number">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                    <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i>Mira road, Mumbai, IN</div>
+                    <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i>7846123</div>
+                    <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i>Businesstraning@gmail.com</div>
+                    <div class="follow"><label><b>Get Social:</b></lable>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container text-center">
+            <p>Made with <i class="fa fa-heart"></i> by Akshu Shigwan</p>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+</body>
+</html>
